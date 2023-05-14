@@ -1,0 +1,65 @@
+
+
+.sell-nft input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 20px;
+  }
+
+.sell-nft input:focus {
+    border: 3px solid #ffe7e7;
+}
+
+.sell-nft input[type=file]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 20px;
+    /* background-color: #e5e5e5; */
+}
+
+.sell-nft {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 30px;
+    margin-left: 30%;
+    margin-top: 7%;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(0, 138, 236, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.2px);
+    -webkit-backdrop-filter: blur(11.2px);
+    border: 2px solid rgba(1, 55, 93, 0.3);
+    width: 30%;
+  }
+
+  .sell-nft form{
+    display: flex;
+    flex-direction: column;
+  }
+
+.submitButton{
+    display: inline;
+    width: 70px;
+    height: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.metadata{
+    justify-content: center;
+    height: min-content;
+    position: relative;
+    margin-left: 20px;
+}

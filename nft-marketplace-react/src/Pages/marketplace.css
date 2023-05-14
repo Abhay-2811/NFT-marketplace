@@ -1,0 +1,11 @@
+.nft-grid{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 70px;
+    grid-row-end: 3;
+    overflow-y: scroll;
+}
+
+

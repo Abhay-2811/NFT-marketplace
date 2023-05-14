@@ -1,0 +1,23 @@
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.home-page button{
+    background-color: white;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+    border: 2px solid rgb(11, 83, 238);
+    border-radius: 18px;
+    margin: 10px;
+}
+
+.home-page button:hover{
+    border: 2px solid black;
+    
+}
